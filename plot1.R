@@ -16,6 +16,8 @@ glimpse(ass1.data)
 
 setwd("C:/Users/BusinessTim/Desktop/desktop files/Coursera/Course4/ass1/ExData_Plotting1/")
 
+plot.new()
+
 png("Plot1.png", width=480, height=480)
 
 hist(ass1.data$Global_active_power, 
